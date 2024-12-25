@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Overpass";
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    width: 280px;
+    background-color: hsl(213, 20%, 18%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.3em;
+    border-radius: 10px;
+}
+
+.rating-section img {
+    width: 12px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.star {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background-color: hsl(216, 12%, 25%);
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 1.3rem;
+    margin: 0.5em 0;
+    color: white;
+}
+
+p {
+    font-size: 0.75rem;
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2em 0;
+}
+
+.rating {
+    font-size: 0.8rem;
+    background-color: hsl(213, 20%, 25%);
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    color: hsl(217, 12%, 63%);
+}
+
+.rating:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+    cursor: pointer;
+}
+
+.rated {
+    background-color: white !important;
+    color: black;
+}
+
+
+button {
+    font-size: 0.8em;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 50px;
+    text-transform: uppercase;
+    color: black;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.thank-you img {
+    display: block;
+    width: 125px;
+    margin: 0 auto;
+}
+
+
+.thank-you .selection {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    border-radius: 50px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 20%, 25%);
+    padding: 0.4em 1em;
+    margin: 2em 0;
+}
+
+h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
+
+.thank-you p {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.active {
+    display: block;
+}
+
+.non-active {
+    display: none;
+}
+
+.not-rated {
+    display: none;
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0.5em;
+
+}
